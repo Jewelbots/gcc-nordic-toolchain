@@ -30,3 +30,8 @@
 
 # Debug files
 *.dSYM/
+
+# Build
+_build/
+# Thanks Mac!
+.DS_Store

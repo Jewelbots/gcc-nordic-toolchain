@@ -1,0 +1,7 @@
+#assumes Homebrew install
+export GNU_INSTALL_ROOT=/usr/local/bin
+
+export GNU_PREFIX=arm-none-eabi
+#292  make -e -f ble_app_beacon.Makefile clean
+#  293  make -e -f ble_app_beacon.Makefile > make.out
+make -e -f gcc/gcc_s130.Makefile clean

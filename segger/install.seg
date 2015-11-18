@@ -1,0 +1,10 @@
+device nrf51822
+power on
+rx 5
+speed 1000
+w4 4001e504 1
+r
+loadbin ../_build/gcc_s130_xxaa.bin 16000
+r
+g
+exit

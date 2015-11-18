@@ -1,0 +1,6 @@
+r
+w4 4001e504 1
+loadbin s130_v9.bin 0
+r
+g
+exit

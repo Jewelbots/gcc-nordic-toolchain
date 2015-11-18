@@ -1,0 +1,8 @@
+device nrf51822
+speed 1000
+w4 4001e504 1
+loadbin segger/s110_v7.bin 0
+loadbin [[--filename--]] 0x16000
+r
+g
+exit
