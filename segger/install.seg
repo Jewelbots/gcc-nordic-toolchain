@@ -1,10 +1,10 @@
-device nrf51822
+device nrf51822_xxac
 power on
 rx 5
 speed 1000
-w4 4001e504 1
+w4 40000 1C000
 r
-loadbin ../_build/gcc_s130_xxaa.bin 16000
+loadbin ../_build/gcc_s130_xxac.bin 1C000
 r
 g
 exit
